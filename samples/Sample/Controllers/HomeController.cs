@@ -20,7 +20,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        _logger.LogInformation("Hello, world!");
+        _logger.LogInformation("Hello, world! Hello");
 
         _diagnosticContext.Set("IndexCallCount", Interlocked.Increment(ref _callCount));
 
